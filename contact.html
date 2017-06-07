@@ -20,22 +20,27 @@
 			<a href="contact.html" class="Contact">Contact</a>
 		</nav>
 	</header>
+
 	</div>
 
-	<div class="ContentDiv">
-	<section class="AboutMeSection">
+	<div class="ContactDiv">
+	<section class="ContactSection">
 
-		<h2 class="AboutMeTitle">About Me</h2>
+		<h2 class="ContactTitle">Contact</h2>
 
-		<div class="AboutMeText">
-		<p>
-		<img src="assets/images/ProfilePic.jpeg" height="200" alt="Zachary Saltzman" class="AboutMeImage" align="left">
-			Zachary Saltzman is a post-production artist and developer based in South Florida.  He graduated from the School of Visual Arts with a degree in Computer Art, Computer Animation, and Visual Effects.  He also studied coding through the UCF Coding Boot Camp.
-		</p>
-		<p>
-			Zac has worked on commercials for major companies such as Pepsi, Fisher Price, and Lipton Tea.  He has also done local work for the city of Delray, Arts Garage, and Millenial Group.  He is excited to start a career as a developer as well.
-		</p>
-		</div>
+		Name
+		<br>
+		<textarea name="NameTextArea" id="NameBox" onfocus="this.value=''; setbg('#e5fff3');" onblur="setbg('white')">John Smith</textarea>
+		Email
+		<br>
+		<textarea name="EmailTextArea" id="EmailBox" onfocus="this.value=''; setbg('#e5fff3');" onblur="setbg('white')">example@gmail.com</textarea>
+		<br>
+		Message
+		<br>
+		<textarea name="MessageTextArea" id="MessageBox" onfocus="this.value=''; setbg('#e5fff3');" onblur="setbg('white')"></textarea>
+		<br>
+		<!--<input type="submit" value="Submit" class="SubmitBox">-->
+		<button type="button" onclick="alert('Thank You')" class="SubmitButton">Submit</button>
 
 	</section>
 	</div>
